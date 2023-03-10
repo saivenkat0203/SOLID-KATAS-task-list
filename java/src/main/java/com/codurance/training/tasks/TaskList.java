@@ -1,5 +1,9 @@
 package com.codurance.training.tasks;
 
+import com.codurance.training.tasks.controller.*;
+import com.codurance.training.tasks.entity.Project;
+import com.codurance.training.tasks.service.*;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

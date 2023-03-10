@@ -1,11 +1,15 @@
-package com.codurance.training.tasks;
+package com.codurance.training.tasks.controller;
+
+import com.codurance.training.tasks.entity.Project;
+import com.codurance.training.tasks.entity.Task;
+import com.codurance.training.tasks.service.AddService;
 
 import java.io.PrintWriter;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class AddTask implements AddService{
+public class AddTask implements AddService {
     @Override
     public boolean add(Map<Long, Project> projectList, String commandLine, PrintWriter out) {
         String[] projectTask = commandLine.split(" ", 3);

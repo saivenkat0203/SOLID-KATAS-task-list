@@ -1,4 +1,8 @@
-package com.codurance.training.tasks;
+package com.codurance.training.tasks.controller;
+
+import com.codurance.training.tasks.entity.Project;
+import com.codurance.training.tasks.entity.Task;
+import com.codurance.training.tasks.service.ViewService;
 
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
